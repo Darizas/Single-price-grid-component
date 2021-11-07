@@ -1,0 +1,105 @@
+body {
+    display: grid;
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+}
+.block {
+    display: inline-block;
+    width: 634px;
+    height: 472px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.block-top {
+    display: inline-block;
+    width: auto;
+    height: 45%;
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+.block-top h2 {
+    color: hsl(179, 62%, 43%);
+    padding: 40px 30px 30px;
+}
+.block-top h3 {
+    color: hsl(71, 73%, 54%);
+    padding: 0 30px 10px;
+}
+
+.block-top p {
+    color: hsl(218, 22%, 67%);
+    padding:  0 30px;
+    line-height: 1.5;
+}
+
+.block-bottom {
+    height: 55%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 0 0 10px 10px;
+}
+
+.block-bottom-left {
+    background-color: hsl(179,61%,43%);
+    color: white;
+    border-bottom-left-radius: 10px;
+}
+
+.block-bottom-left h3 {
+    padding: 40px 0 20px 30px;
+}
+
+.price {
+    display: table;
+    padding-bottom: 15px;
+}
+
+.block-bottom-left .price h1{
+    padding-left: 30px;
+    display: inline-block;
+}
+
+.block-bottom-left .price span {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: normal;
+    color: hsl(197, 7%, 81%);
+}
+
+.block-bottom-left p {
+    padding-left: 30px;
+}
+
+.block-bottom-left button {
+    margin: 30px 30px;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: hsl(71, 73%, 54%);
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+}
+
+.block-bottom-right {
+    background-color: hsl(179,47%,51%);
+    color: white;
+    border-bottom-right-radius: 10px;
+}
+
+.block-bottom-right .text {
+    padding-left: 30px;
+}
+
+.block-bottom-right .text h3 {
+    padding: 40px 0 20px;
+}
+
+.block-bottom-right .text p {
+    padding-bottom: 5px;
+    color: hsl(204, 43%, 93%);
+}
